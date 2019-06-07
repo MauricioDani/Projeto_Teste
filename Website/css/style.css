@@ -1,0 +1,115 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader{
+    background-color: coral;
+    color: #ffffff;
+}
+
+#navBar{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#navBar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navBar li{
+    display: inline;
+}
+
+#navBar a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showCase{
+    background-image: url(../images/arquitetura.jpg);
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showCase h1{
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#mainArea{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sideBar{
+    float: right;
+    width: 30%;
+    background: #333333;
+    color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#mainFooter{
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+@media(max-width:600px){
+    #mainArea{
+        width: 100%;
+        float: none;
+    }
+}
+
+@media(max-width:600px){
+    #sideBar{
+        width: 100%;
+        float: none;
+    }
+}
+
+@media(max-width:800px){
+    #mainArea{
+        background-color: green;
+    }
+}
+
+@media(max-width:500px){
+    #mainArea{
+        background-color: blue;
+    }
+}
+
+@media(max-width:300px){
+    #mainArea{
+        background-color: red;
+    }
+}
+
+
+
