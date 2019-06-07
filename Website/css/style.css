@@ -79,35 +79,17 @@ body{
 }
 
 
-@media(max-width:600px){
+@media(max-width:800px){
     #mainArea{
-        width: 100%;
-        float: none;
-    }
-}
-
-@media(max-width:600px){
-    #sideBar{
         width: 100%;
         float: none;
     }
 }
 
 @media(max-width:800px){
-    #mainArea{
-        background-color: green;
-    }
-}
-
-@media(max-width:500px){
-    #mainArea{
-        background-color: blue;
-    }
-}
-
-@media(max-width:300px){
-    #mainArea{
-        background-color: red;
+    #sideBar{
+        width: 100%;
+        float: none;
     }
 }
 
