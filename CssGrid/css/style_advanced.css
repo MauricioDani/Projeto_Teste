@@ -1,0 +1,22 @@
+.container > div {
+  display: flex;
+  justify-content: auto;
+  align-items: auto;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.container > div > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+html, body {
+  background-color: #ffeead;
+  margin: 10px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 1);
+}
