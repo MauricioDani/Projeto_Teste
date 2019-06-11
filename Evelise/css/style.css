@@ -1,0 +1,106 @@
+body{
+    background-color:#c9b4b4;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 0;
+    background-image: url("../images/arquiterura.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto minmax(38vh, auto) minmax(38vh, auto) auto;
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "m m m m m m m m m m m m"
+    "c c c c c c c c c c c c"
+    "c c c c c c c c c c c c"
+    "f f f f f f f f f f f f"; 
+}
+
+
+.header{
+    grid-area: h;
+    text-align: center;
+    text-decoration-style: solid;
+}
+
+.menu{
+    display: flex;
+    grid-area: m;   
+}
+
+.menu div{
+    width: 100%;
+    flex: 1 1 100%;
+    padding: 1rem 2rem;
+    text-align: center;  
+}
+
+.sidebar{
+    grid-area: s;
+    text-align: center;
+}
+
+.content{
+    grid-area: c;
+    align-content: center;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.footer{
+    grid-area: f;
+    text-align: center;
+    font-size: 55%;
+}
+
+.container #nome{
+    color:#000000;
+    align-content: center;
+    letter-spacing: 0.2em;
+    margin-bottom: -10px;
+}
+
+.container #subnome{
+    color: #000000;
+    align-content: center;
+    letter-spacing: 0.1em;
+    font-size: 70%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* link que ainda não foi visitado */
+a:link {
+    color: #000000;
+ }
+
+ /* link que foi visitado */
+ a:visited {
+    color: #000000;
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: #ffffff;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: #000000;
+ }
+
+ img {
+    max-width: 100%;
+    height: auto;
+}
